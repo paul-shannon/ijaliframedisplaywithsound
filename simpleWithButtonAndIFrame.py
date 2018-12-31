@@ -40,6 +40,8 @@ def displayText(n_clicks):
    return('/fubar/test.html')
 
 #------------------------------------------------------------------------------------------------------------------------
+server = app.server
+
 if __name__ == "__main__":
    webbrowser.open('http://127.0.0.1:8068/', new=0, autoraise=True)
    app.run_server(host='0.0.0.0', port=8068)
